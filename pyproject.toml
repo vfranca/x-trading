@@ -1,9 +1,12 @@
 [tool.poetry]
 name = "x-trading"
 version = "0.1.0"
-description = ""
+description = "Comandos úteis para o trading"
 authors = ["Valmir Franca <vfranca3@gmail.com>"]
 readme = "README.md"
+license = "BSD-3-Clause"
+repository = "https://github.com/vfranca/x-trading"
+keywords = ["CLI", "trading"]
 packages = [{include = "x_trading"}]
 
 [tool.poetry.dependencies]
