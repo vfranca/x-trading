@@ -9,3 +9,6 @@ if digits == None:
     digits = 2
 else:
     digits = int(digits)
+
+# Formato da moeda
+formato_moeda = "%." + str(digits) + "f"
