@@ -10,7 +10,7 @@ run = CliRunner()
 
 def test_exibe_a_versao():
     res = run.invoke(x, ["--version"])
-    assert res.output == "x-trading 0.3.0\n"
+    assert res.output == "x-trading 0.3.1\n"
 
 
 def test_calcula_variacoes_percentuais():
